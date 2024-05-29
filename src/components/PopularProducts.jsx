@@ -5,42 +5,42 @@ const popularProductsData = [
     {
         id: '3432',
         product_name: 'Macbook M1 Pro 14"',
-        product_thumbnail: 'https://source.unsplash.com/100x100?macbook',
+        product_thumbnail: 'https://cdn.pixabay.com/photo/2017/08/03/11/22/laptop-2575689_960_720.jpg',
         product_price: '$1499.00',
         product_stock: 341
     },
     {
         id: '7633',
         product_name: 'Samsung Galaxy Buds 2',
-        product_thumbnail: 'https://source.unsplash.com/100x100?earbuds',
+        product_thumbnail: 'https://cdn.pixabay.com/photo/2020/09/24/14/51/earphones-5598952_1280.jpg',
         product_price: '$399.00',
         product_stock: 24
     },
     {
         id: '6534',
         product_name: 'Asus Zenbook Pro',
-        product_thumbnail: 'https://source.unsplash.com/100x100?laptop',
+        product_thumbnail: 'https://cdn.pixabay.com/photo/2016/03/27/07/12/apple-1282241_1280.jpg',
         product_price: '$899.00',
         product_stock: 56
     },
     {
         id: '9234',
         product_name: 'LG Flex Canvas',
-        product_thumbnail: 'https://source.unsplash.com/100x100?smartphone',
+        product_thumbnail: 'https://cdn.pixabay.com/photo/2016/11/17/01/02/phone-1830479_960_720.jpg',
         product_price: '$499.00',
         product_stock: 98
     },
     {
         id: '4314',
         product_name: 'Apple Magic Touchpad',
-        product_thumbnail: 'https://source.unsplash.com/100x100?touchpad',
+        product_thumbnail: 'https://cdn.pixabay.com/photo/2016/10/21/16/01/ipad-1758353_1280.jpg',
         product_price: '$699.00',
         product_stock: 0
     },
     {
         id: '4342',
         product_name: 'Nothing Earbuds One',
-        product_thumbnail: 'https://source.unsplash.com/100x100?earphone',
+        product_thumbnail: 'https://cdn.pixabay.com/photo/2018/09/07/23/58/headphone-3661771_960_720.jpg',
         product_price: '$399.00',
         product_stock: 453
     }
