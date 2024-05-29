@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { getOrderStatus } from '../lib/utils'
 
 const recentOrderData = [
     {
@@ -96,7 +97,7 @@ function RecentOrders() {
                                 <td>{new Date (order.order_date).toLocaleDateString()}</td>
                                 <td>{order.order_total}</td>
                                 <td>{order.shipment_address}</td>
-                                <td>{order.current_order_status}</td>
+                                <td>{getOrderStatus(order.current_order_status)}</td>
                             </tr>
                         )}
                     </tbody>

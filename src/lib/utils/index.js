@@ -1,4 +1,4 @@
-export function index(status) {
+export function getOrderStatus(status) {
     switch (status) {
         case 'PLACED':
             return (
