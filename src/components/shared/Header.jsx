@@ -80,7 +80,7 @@ export default function Header() {
                             <span className="sr-only">Open user menu</span>
                             <div
                                 className="h-10 w-10 rounded-full bg-sky-500 bg-cover bg-no-repeat bg-center"
-                                style={{ backgroundImage: 'url("https://source.unsplash.com/80x80?face")' }}
+                                style={{ backgroundImage: 'url("https://cdn.pixabay.com/photo/2018/04/27/03/50/portrait-3353699_1280.jpg")' }}
                             >
                                 <span className="sr-only">Marc Backes</span>
                             </div>
