@@ -1,11 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import DashboardStartsGrid from './DashboardStartsGrid'
 
 export default function Dashboard() {
     return(
-        <div>
-            <p>this is dashboard</p>
-            <Link to="/products" className='underline'>go to products</Link>
+        <div className='flex gap-4'>
+            <DashboardStartsGrid/>
         </div>
     )
 }
